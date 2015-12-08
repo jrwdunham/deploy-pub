@@ -1,13 +1,24 @@
 # Archivematica playbook
 
-The provided playbook installs Archivematica on a local vagrant virtual machine.
+The provided Ansible playbook can be used to install Archivematica on:
 
-## Requirements
+  - an ubuntu virtual machine in a host with vagrant/VirtualBox
+  - an ubuntu host directly
+
+
+## Install Archivematica on a VM running on the local host (using Vagrant)
+
+### Requirements
 
 - Vagrant 1.7 or newer
 - Ansible 1.9 or newer
 
-## How to use
+### How to use
+
+0. Install ansible, VirtualBox, and vagrant on the host PC, and clone this repositoty. For instructions please refer to:
+  - Ansible: http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-apt-ubuntu
+  - Vagrant: https://docs.vagrantup.com/v2/installation/index.html
+  - VirtualBox: https://help.ubuntu.com/community/VirtualBox/Installation
 
 1. Download the Ansible roles:
   ```
@@ -46,3 +57,15 @@ The provided playbook installs Archivematica on a local vagrant virtual machine.
         ```
 
 For more archivematica development information, see: https://wiki.archivematica.org/Getting_started
+
+
+
+## Install Archivematica directly on the local host
+
+
+### Requirements
+
+- An ubuntu host (Trusty 14.04, it may run on other versions but not tested)
+- A user account with sudo
+
+### How to use
