@@ -3,12 +3,13 @@
 # archivematica-src role
 
 archivematica_src_install_devtools: "yes"
-archivematica_src_am_version: "qa/1.x"
+#archivematica_src_am_version: "qa/1.x"
+archivematica_src_am_version: "dev/issue-9478-integrate-mediaarea-tools"
 archivematica_src_ss_version: "qa/0.x"
 
 # Define the type of environment: "production" or "development". The latter
 # will deploy some extra stuff to make the development workflow easier.
-archivematica_src_environment_type: "production"
+archivematica_src_environment_type: "development"
 
 # elasticsearch role
 
