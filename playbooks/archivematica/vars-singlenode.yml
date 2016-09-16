@@ -4,31 +4,8 @@
 
 archivematica_src_install_devtools: "yes"
 
-#archivematica_src_am_version: "dev/issue-10155-unicode-filenames"
-#archivematica_src_am_version: "qa/1.x"
-#archivematica_src_am_version: "stable/1.5.x"
-#archivematica_src_am_version: "dev/bug-10045-bytes-discrepancy"
-#archivematica_src_am_version: "dev/issue-9340-hide-endpoint-backport"
-#archivematica_src_am_version: "dev/issue-9941-api-unicode-addenda"
-#archivematica_src_am_version: "dev/issue-9478-mediaconch-microservice-approach"
-#archivematica_src_am_version: "dev/issue-10132-derivatives-conformance"
-#archivematica_src_am_version: "stable/1.4.x"
-#archivematica_src_am_version: "dev/issue-10133-ingest-policy-check"
-#
-# This is for my PREFORMA stuff
-#archivematica_src_am_version: "dev/issue-10133-ingest-policy-check-good"
-
-# This is for "Little Jisc"
-archivematica_src_am_version: "dev/issue-10180-little-jisc"
-
-# Use this for my PREFORMA stuff
-#archivematica_src_ss_version: "stable/0.8.x"
-#
-# This for "Little Jisc"
-archivematica_src_ss_version: "dev/issue-10180-little-jisc"
-
-#archivematica_src_ss_version: "stable/0.7.x"
-#archivematica_src_ss_version: "qa/0.x"
+archivematica_src_am_version: "dev/issue-10133-ingest-policy-check-good"
+archivematica_src_ss_version: "qa/0.x"
 
 # Define the type of environment: "production" or "development". The latter
 # will deploy some extra stuff to make the development workflow easier.

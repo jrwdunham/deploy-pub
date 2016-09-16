@@ -20,7 +20,7 @@
   name: "nginx"
   path: "roles/"
 
-- src: "https://github.com/jrwdunham/ansible-role-archivematica-src.git"
-  version: "origin/dev/install-mediaconch"
+- src: "https://github.com/artefactual-labs/ansible-role-archivematica-src"
+  version: "dev/install-mediaconch"
   name: "archivematica-src"
   path: "roles/"
